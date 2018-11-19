@@ -1,23 +1,23 @@
 # main text of home
-name: Eliseo Papa
-bio: Biomedical engineer, computational biologist, doctor
+name: Corina Duenas
+bio: Immunologist, computational biologist, data analysis
 
 # twitter summary info
-description: Eliseo Papa's thoughts, ideas and projects. Here so they can be safely ignored.
+description: Just a 'bite' of data science applied to biology and pharmacology projects. Enjoy yourself!
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/elipapa-calder-logo-circ-invert.png
-logo: assets/images/elipapa-calder-logo-circ-invert.png
+picture: assets/images/corinabioinformatic-calder-logo-circ-invert.png
+logo: assets/images/corinabioinformatic-calder-logo-circ-invert.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://elipapa.github.io/mycv/extended
+resume-url: https://corinabioinformatic.github.io/mycv/extended
 
-url: https://elipapa.github.io
+url: https://corinabioinformatic.github.io
 # your url: http://USERNAME.github.io
 
 # permalink: /:title/
@@ -38,30 +38,30 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: elipapa
+twitter: corinabioinformatic
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: eliseopapa
 # youtube: myyoutube
 spotify: vivissima
-github: elipapa
+github: corinabioinformatic
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: elipapa
-orcid: 0000-0002-2467-7759
+medium: corinabioinformatic
+orcid: 0000-0002-8928-3726
 # vimeo: myvimeo
 # email: myemail@gmail.com
 
 authors:
-    elipapa:
-        name: Eliseo Papa
-        bio: Biomedical engineer, computational biologist, doctor
+    corinabioinformatic:
+        name: Corina Duenas
+        bio: Immunologist, computational biologist, data analysis
         external-image: false
-        picture: assets/images/elipapa-calder-logo-circ-invert.png
-        twitter: elipapa
+        picture: assets/images/corinabioinformatic-calder-logo-circ-invert.png
+        twitter: corinabioinformatic
 
 collections:
   work:
@@ -116,20 +116,20 @@ jekyll-mentions:
 # # Permalinks
 
 # # Setup
-# title:            Eliseo Papa
-# tagline:          'Thoughts, ideas and projects. Here so they can be safely ignored.'
-# description:      'Biomedical engineer, computational biologist, doctor'
-# production_url:   'http://elipapa.github.io'
+# title:            Corina Duenas
+# tagline:          'Immunologist, computational biologist, data analysis'
+# description:      'Just a 'bite' of data science applied to biology and pharmacology projects. Enjoy yourself!'
+# production_url:   'http://corinabioinformatic.github.io'
 
 # author:
-#   name:           'Eliseo Papa'
-#   url:            'http://elipapa.github.io'
+#   name:           'Corina Duenas'
+#   url:            'http://corinabioinformatic.github.io'
 
 # paginate:         8
 # paginate_path:    "blog/:num"
 
 # # Custom vars
-# repo:             "http://github.com/elipapa/elipapa.github.io"
+# repo:             "http://github.com/corinabioinformatic/corinabioinformatic.github.io"
 
 # # let github generate a sitemap.xml for you
 # gems:
