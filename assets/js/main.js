@@ -13,3 +13,31 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+// Theme Toggle Functionality
+const themeToggle = document.getElementById('themeToggle');
+const body = document.body;
+const icon = themeToggle.querySelector('i');
+
+// Check for saved theme preference or default to light
+const currentTheme = localStorage.getItem('theme') || 'light';
+if (currentTheme === 'dark') {
+    body.classList.add('dark-theme');
+    icon.classList.remove('la-moon');
+    icon.classList.add('la-sun');
+}
+
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-theme');
+    
+    // Toggle icon
+    if (body.classList.contains('dark-theme')) {
+        icon.classList.remove('la-moon');
+        icon.classList.add('la-sun');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        icon.classList.remove('la-sun');
+        icon.classList.add('la-moon');
+        localStorage.setItem('theme', 'light');
+    }
+});

@@ -1,14 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
+    --color-body: #2c3e50;
+    --color-heading: #1a1a1a;
+    --color-base: #e3f2fd;
+    --color-base2: #ffffff;
+    --color-brand: #084298;
+    --color-brand2: #42a5f5;
+    --sidbar-width: 240px;
+    --font-base: "Poppins";
+}
+
+/* Dark Theme */
+body.dark-theme {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
     --color-base: #084298;
     --color-base2: #111111;
     --color-brand: #42a5f5;
     --color-brand2: #deff58;
-    --sidbar-width: 240px;
-    --font-base: "Poppins";
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-heading);
+    color: var(--color-base2);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.theme-toggle:active {
+    transform: scale(0.95);
+}
+
+body.dark-theme .theme-toggle {
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-heading);
+    color: var(--color-base2);
+}
+
+/* Dark Theme Navbar */
+body.dark-theme .navbar {
+    background-color: var(--color-base);
+}
+
+body.dark-theme .navbar .nav-link {
+    color: #fff;
+}
+
+body.dark-theme .navbar .nav-link:hover,
+body.dark-theme .navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+    body.dark-theme .navbar {
+        background: linear-gradient(rgba(13 110 253), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+    }
+    
+    body.dark-theme .navbar-brand img {
+        border-color: var(--color-brand);
+    }
 }
 
 body {
